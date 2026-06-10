@@ -5,7 +5,11 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.runnables import RunnableLambda, RunnableParallel
 from langchain_core.documents import Document
-
+from langchain_community.retrievers import BM25Retriever
+from langchain_community.cross_encoders import HuggingFaceCrossEncoder
+from langchain.retrievers import EnsembleRetriever
+from langchain.retrievers.contextual_compression import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import CrossEncoderReranker
 warnings.filterwarnings("ignore")
 
 def create_vector_store(docs, persist_dir):
