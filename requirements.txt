@@ -18,3 +18,17 @@ uvicorn
 pdfplumber
 rank_bm25
 python-dotenv
+pdfplumber==0.11.9
+langchain==0.3.25
+langchain-core==0.3.86
+langchain-community==0.3.31
+langchain-huggingface==0.1.3
+langchain-chroma==0.2.6
+langchain-groq==0.3.2
+langchain-text-splitters==0.3.11
+sentence-transformers==3.4.1
+chromadb==1.5.9
+protobuf==6.33.6
+grpcio==1.81.0
+rank-bm25==0.2.2
+python-dotenv==1.2.2
