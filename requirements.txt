@@ -1,5 +1,6 @@
 pdfplumber
 langchain
+langchain-classic
 langchain-community
 langchain-groq
 langchain-huggingface
@@ -14,7 +15,7 @@ pymupdf
 groq
 rank-bm25
 python-dotenv
-opentelemetry-exporter-otlp-proto-grpc>=1.21.0
-protobuf>=4.21.0,<5.0.0
 torch
 torchvision
+opentelemetry-exporter-otlp-proto-grpc>=1.21.0
+protobuf>=4.21.0,<5.0.0
